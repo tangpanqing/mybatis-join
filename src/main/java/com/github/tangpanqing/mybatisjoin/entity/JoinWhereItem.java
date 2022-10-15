@@ -1,4 +1,4 @@
-package github.tangpanqing.mybatisjoin.entity;
+package com.github.tangpanqing.mybatisjoin.entity;
 
 public class JoinWhereItem {
     String fieldName;

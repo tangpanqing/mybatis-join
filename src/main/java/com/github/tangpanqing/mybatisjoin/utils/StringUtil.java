@@ -1,4 +1,4 @@
-package github.tangpanqing.mybatisjoin.utils;
+package com.github.tangpanqing.mybatisjoin.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,7 +15,7 @@ public class StringUtil {
         } else {
             return sb.toString().replaceAll("_", "");
         }
-        return sb.toString();
+        return underlineToCamel(sb.toString());
     }
 
     public static String camelToUnderline(String line){

@@ -1,4 +1,4 @@
-package github.tangpanqing.mybatisjoin.utils;
+package com.github.tangpanqing.mybatisjoin.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

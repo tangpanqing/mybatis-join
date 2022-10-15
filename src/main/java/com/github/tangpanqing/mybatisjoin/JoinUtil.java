@@ -1,10 +1,12 @@
-package github.tangpanqing.mybatisjoin.utils;
+package com.github.tangpanqing.mybatisjoin;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import github.tangpanqing.mybatisjoin.entity.JoinResCount;
-import github.tangpanqing.mybatisjoin.entity.JoinWhereItem;
+import com.github.tangpanqing.mybatisjoin.entity.JoinResCount;
+import com.github.tangpanqing.mybatisjoin.entity.JoinWhereItem;
+import com.github.tangpanqing.mybatisjoin.utils.SpringUtil;
+import com.github.tangpanqing.mybatisjoin.utils.StringUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionUtils;
